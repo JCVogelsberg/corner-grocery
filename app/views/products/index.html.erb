@@ -1,0 +1,13 @@
+<h3>Weekly Specials:</h3>
+
+<ul>
+  <% @products.each do |product| %>
+    <li><a href="/products/<%= product.id %>"><%= product.name %></a></li>
+    <% end %>
+</ul>
+
+<p><%= link_to "Add a New Product", new_product_path, :class=> "btn btn-default" %></p>
+
+<br>
+<br>
+<p><a href="/products">Return to Products</a></p>

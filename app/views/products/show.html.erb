@@ -1,0 +1,17 @@
+<%= content_for(:title, "Show Product | Store Website") %>
+
+<h3><i> <%= @product.name %> </i></h3>
+
+<p> <b>Price:</b> <br>$<%= @product.price %> </p>
+
+<p> <b>Product description:</b> <br><%= @product.description %> </p>
+<br>
+<p> <%= link_to "Edit Product", edit_product_path(@product), :class => "btn btn-default" %> </p>
+
+<p> <%= link_to "Delete Product", product_path(@product),
+                          data: { confirm: "Are You Sure? This will permanently delete the item.",
+                          method: "delete" },
+                          :class => "btn btn-danger" %> </p>
+
+<br>
+<p><a href="/products">Return to Products</a></p>

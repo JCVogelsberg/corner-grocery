@@ -1,0 +1,26 @@
+<%= form_for(@product) do |f| %>
+  <div class="form-group">
+    <%= f.label :product_name %>
+<br>
+    <%= f.text_field :name %>
+<br>
+<br>
+    <%= f.label :product_price %>
+<br>
+    <%= f.text_field :price %>
+<br>
+<br>
+    <%= f.label :description %>
+<br>
+    <%= f.text_area :description %>
+
+  </div>
+<br>
+
+  <%= f.submit(:class => "btn btn-primary") %>
+
+<% end %>
+
+
+
+
