@@ -10,18 +10,29 @@ describe "product pages" do
     end
   end
 
-  describe "creating" do
-    it "should let you create a new product" do
-      product = Product.create(:name => "Dog Cologne", :price => 3.97, :description => "Available in Drakkar, CK1, and New-Car scents")
-      visit "/products/new"
-      click_link "Create"
-      # save_and_open_page
-      page.should have_content "Product Saved!"
-
-    end
+  it "creates a new product" do
+    visit "/products/new"
+    fill_in 'Name', :with => "Dog Cologne"
+    fill_in 'Price', :with => 3.97
+    fill_in 'Description', :with => "Available in Drakkar, CK1, and New-Car scents"
+    click_button "Create Product"
+    page.should have_content "Product Saved!"
   end
 
+
+  # describe "creating" do
+  #   it "should let you create a new product" do
+  #     fill_in 'name', :with => "Dog Cologne"
+  #     fill_in 'price', :with => 3.97
+  #     fill_in 'description', :with => "Available in Drakkar, CK1, and New-Car scents"
+  #     visit new_product_path
+  #     # save_and_open_page
+  #     click_button "Create Product"
+  #   end
+  # end
 end
+
+
 
 
 

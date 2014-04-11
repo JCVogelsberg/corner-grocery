@@ -7,11 +7,11 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'bootstrap-sass'
 
 group :development do
   gem 'binding_of_caller'
   gem 'quiet_assets'
-  gem 'bootstrap-sass'
 end
 
 group :test, :development do
