@@ -2,11 +2,19 @@
 <br>
 <p>Price: ${{price}}</p>
 <p>Description: {{description}}</p>
+<br>
+
+
+<div class="row-md-6">
+<button {{action deleteProduct}} class="btn btn-danger btn-xs">Delete Product</button></li>
+</div>
+
 
 <br>
-<button {{action deleteProduct}} class="btn btn-danger btn-xs">Delete</button></li>
-<br><br>
 
 <p>{{#link-to 'edit_product' this}}Edit this Product{{/link-to}}</p>
 <p>{{#link-to 'products'}}Return to Homepage{{/link-to}}</p>
+
+
+
 
