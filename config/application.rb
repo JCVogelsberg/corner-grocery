@@ -27,3 +27,8 @@ module StoreWebsite
     config.action_controller.permit_all_parameters = true
   end
 end
+
+StoreWebsite::Application.configure do
+  # ember-rails requires this setting in the Rails application.
+  config.ember.variant = :production
+end
