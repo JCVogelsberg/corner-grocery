@@ -1,0 +1,12 @@
+<h3>{{name}}</h3>
+<br>
+<p>Price: ${{price}}</p>
+<p>Description: {{description}}</p>
+
+<br>
+<button {{action deleteProduct}} class="btn btn-danger btn-xs">Delete</button></li>
+<br><br>
+
+<p>{{#link-to 'edit_product' this}}Edit this Product{{/link-to}}</p>
+<p>{{#link-to 'products'}}Return to Homepage{{/link-to}}</p>
+

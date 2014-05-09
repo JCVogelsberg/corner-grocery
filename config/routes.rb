@@ -1,4 +1,5 @@
 StoreWebsite::Application.routes.draw do
-  resources :products
+  root :to => 'application#index'
+  resources :products, :except => [:new, :edit]
 
 end

@@ -1,0 +1,15 @@
+  <h3>Weekly Specials</h3>
+  <br>
+
+  <ul>
+  {{#each product in controller}}
+    <li> {{#link-to 'product' product}}{{product.name}}{{/link-to}}<br>
+  {{/each}}
+  </ul>
+  <br>
+  <p>{{#link-to 'new_product'}}Enter a new product{{/link-to}}</p>
+
+<div class="container">
+  {{outlet}}
+</div>
+
