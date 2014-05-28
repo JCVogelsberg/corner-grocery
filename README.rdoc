@@ -13,8 +13,8 @@ To set up:
 
 -Clone the database from the schema ($ rake db:create:all)
 
--Open a rails Server ($ rails s)
-
 -Populate the database ($ rake db:migrate)
+
+-Open a rails Server ($ rails s)
 
 -Open the app in the browser (localhost:3000/)
