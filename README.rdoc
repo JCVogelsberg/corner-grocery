@@ -1,28 +1,20 @@
-== README
+-------------------
+Store Website
+-------------------
+A single page CRUD app using a Rails back-end and Ember.js. Allows a store owner to add, delete, 
+and modify items in his inventory. 
+====================================================================================================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To set up:
 
-Things you may want to cover:
+-Clone the repo on your local machine ($ git clone github.com/JCVogelsberg/StoreWebsite-Ember-Rails-CRUD-App.git)
 
-* Ruby version
+-bundle gemfile
 
-* System dependencies
+-Clone the database from the schema ($ rake db:create:all)
 
-* Configuration
+-Open a rails Server ($ rails s)
 
-* Database creation
+-Populate the database ($ rake db:migrate)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-Open the app in the browser (localhost:3000/)
