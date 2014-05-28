@@ -18,4 +18,3 @@ To set up:
 -Open a rails Server ($ rails s)
 
 -Open the app in the browser (localhost:3000/)
-
