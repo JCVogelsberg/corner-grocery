@@ -7,7 +7,7 @@ and modify items in his inventory.
 
 To set up:
 
--Clone the repo on your local machine ($ git clone https://github.com/JCVogelsberg/StoreWebsite-Ember-Rails-CRUD-App.git)
+-Clone the repo on your local machine (`$ git clone https://github.com/JCVogelsberg/StoreWebsite-Ember-Rails-CRUD-App.git`)
 
 -bundle gemfile
 
