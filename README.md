@@ -1,5 +1,5 @@
 Store Website
--------------------
+===
 A single page CRUD app using a Rails back-end and Ember.js. Allows a store owner to add, delete, 
 and modify items in his inventory.
 
