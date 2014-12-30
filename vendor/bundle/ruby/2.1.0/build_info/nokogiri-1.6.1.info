@@ -1,0 +1,1 @@
+'--use-system-libraries --with-iconv-dir= --with-xml2-config=/usr/local/Cellar/libxml2/2.9.2/bin/xml2-config --with-xslt-config=/usr/local/Cellar/libxslt/1.1.28/bin/xslt-config'

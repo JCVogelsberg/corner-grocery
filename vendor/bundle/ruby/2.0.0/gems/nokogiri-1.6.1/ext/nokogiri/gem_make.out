@@ -1,0 +1,73 @@
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby extconf.rb '--use-system-libraries --with-iconv-dir= --with-xml2-config=/usr/local/Cellar/libxml2/2.9.2/bin/xml2-config --with-xslt-config=/usr/local/Cellar/libxslt/1.1.28/bin/xslt-config'
+Extracting libxml2-2.8.0.tar.gz into tmp/x86_64-apple-darwin14.0.0/ports/libxml2/2.8.0... OK
+Running 'configure' for libxml2 2.8.0... OK
+Running 'compile' for libxml2 2.8.0... OK
+Running 'install' for libxml2 2.8.0... OK
+Activating libxml2 2.8.0 (from /Volumes/MacBook_Files_HD/a_____WEB_DEV/corner-grocery/vendor/bundle/ruby/2.0.0/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin14.0.0/libxml2/2.8.0)...
+Extracting libxslt-1.1.26.tar.gz into tmp/x86_64-apple-darwin14.0.0/ports/libxslt/1.1.26... OK
+Running 'configure' for libxslt 1.1.26... OK
+Running 'compile' for libxslt 1.1.26... OK
+Running 'install' for libxslt 1.1.26... OK
+Activating libxslt 1.1.26 (from /Volumes/MacBook_Files_HD/a_____WEB_DEV/corner-grocery/vendor/bundle/ruby/2.0.0/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin14.0.0/libxslt/1.1.26)...
+checking for libxml/parser.h... yes
+checking for libxslt/xslt.h... yes
+checking for libexslt/exslt.h... yes
+checking for iconv_open() in iconv.h... no
+checking for iconv_open() in -liconv... yes
+checking for xmlParseDoc() in -lxml2... no
+-----
+libxml2 is missing.  please visit http://nokogiri.org/tutorials/installing_nokogiri.html for help with installing dependencies.
+-----
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--with-iconv-dir
+	--without-iconv-dir
+	--with-iconv-include
+	--without-iconv-include=${iconv-dir}/include
+	--with-iconv-lib
+	--without-iconv-lib=${iconv-dir}/lib
+	--with-xml2-dir
+	--without-xml2-dir
+	--with-xml2-include
+	--without-xml2-include=${xml2-dir}/include
+	--with-xml2-lib
+	--without-xml2-lib=${xml2-dir}/lib
+	--with-xslt-dir
+	--without-xslt-dir
+	--with-xslt-include
+	--without-xslt-include=${xslt-dir}/include
+	--with-xslt-lib
+	--without-xslt-lib=${xslt-dir}/lib
+	--with-libxslt-config
+	--without-libxslt-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-libxml-2.0-config
+	--without-libxml-2.0-config
+	--with-libiconv-config
+	--without-libiconv-config
+	--with-iconvlib
+	--without-iconvlib
+	--with-xml2lib
+	--without-xml2lib

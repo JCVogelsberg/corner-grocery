@@ -2,14 +2,15 @@ source 'https://rubygems.org'
 
 gem 'rails'
 gem 'pg'
-gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'bootstrap-sass'
 gem 'ember-rails'
 gem 'ember-data-source', '~> 1.0.0.beta.7'
 gem 'rerun'
+gem 'twitter-bootstrap-rails'   #Needed for Bootstrap
+gem 'less-rails'                #Needed for Bootstrap
+gem 'therubyracer'              #Needed for Bootstrap
 
 group :development do
   gem 'binding_of_caller'
@@ -32,3 +33,7 @@ group :production do
   gem 'rest-client'
   gem 'dotenv-rails'
 end
+
+
+
+
