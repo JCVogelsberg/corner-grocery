@@ -33,7 +33,3 @@ group :production do
   gem 'rest-client'
   gem 'dotenv-rails'
 end
-
-
-
-
